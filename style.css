@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: aquamarine;
+    max-width: 1000px;
+}
+
+.profile_photo{
+    width: 100px;
+    height: 120px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+
+.header-contact{
+    float: right;
+    padding: 35px;
+    margin-top: 25px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    border-bottom: none;
+}
+
+
+#personal-section{
+
+}
+.content{
+  margin: 10px 0px;
+}
+.left-div{
+    width: 40%;
+    float: left;
+}
+.right-div{
+    width: 60%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    margin-top: 10px;
+}
+
+.experience{
+    margin: 10px 0px;
+}
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+}
+
+.bottom-container p{
+    margin-top: 20px;
+}
+
